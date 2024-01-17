@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-util" />
+        <module name="gec-service-system" />
+        <module name="auth-security" />
+        <module name="service-util" />
+        <module name="gec-model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-security (1)" target="1.8" />
+      <module name="auth-springsecurity" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-security" options="-parameters" />
+      <module name="auth-security (1)" options="-parameters" />
+      <module name="auth-springsecurity" options="-parameters" />
+      <module name="common-util" options="-parameters" />
+      <module name="gec-common" options="" />
+      <module name="gec-model" options="-parameters" />
+      <module name="gec-service-system" options="-parameters" />
+      <module name="gec-video-system-2346" options="" />
+      <module name="service-util" options="-parameters" />
+    </option>
+  </component>
+</project>
