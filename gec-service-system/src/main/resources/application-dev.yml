@@ -33,11 +33,11 @@ spring:
 al:
   oss: #存储
     endpoint: oss-cn-guangzhou.aliyuncs.com   # 域
-    accessKeyId: LTAI5tFWkS4pBVknPo7MaYmb  # 秘钥
-    accessKeySecret: EscUbXfMGNAV5a41zTw1YGUdLDn3rB # 秘钥
+    accessKeyId: //  # 秘钥
+    accessKeySecret: // # 秘钥
     bucketName: movie-lan1ce  # 桶名
     url: https://movie-lan1ce.oss-cn-guangzhou.aliyuncs.com  # 访问地址
   vod: # 视频
     regionId: cn-shanghai
-    accessKeyId: LTAI5tFWkS4pBVknPo7MaYmb #登录账号
-    accessKeySecret: EscUbXfMGNAV5a41zTw1YGUdLDn3rB
+    accessKeyId: // #登录账号
+    accessKeySecret: //
